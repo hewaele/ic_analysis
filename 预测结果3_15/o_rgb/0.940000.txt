@@ -1,0 +1,110 @@
+4567890123
+2016Y3M5D
+2036YM5D
+789
+
+4311231
+2016Y3M5D
+2036YD
+146
+
+432112312
+2016Y3MD
+2036YM
+146
+
+56781231
+016Y3M5D
+2036YM5D
+0
+
+1246780123
+2016YD
+2036Y
+35
+
+3456701
+YD
+236YM5D
+
+
+78015
+2016Y3M5D
+2036YMD
+2
+
+Error,No Location!
+Error,No Location!
+Error,No Location!
+Error,No Location!
+
+43112318
+016Y3D
+2036YM5
+
+
+43112314
+016Y3D
+2036Y
+146
+
+67134567812
+016Y3D
+2036YMD
+
+
+158123
+01Y35D
+2036YMD
+
+
+Error,No Location!
+Error,No Location!
+Error,No Location!
+Error,No Location!
+
+4311231
+016Y3D
+2036YD
+
+
+0123781
+2016Y3M5D
+2036Y
+
+
+780135
+016YMD
+2036YM
+2
+
+23468148
+2016Y3M5D
+2036YM5D
+
+
+Error,No Location!
+Error,No Location!
+Error,No Location!
+Error,No Location!
+
+4320112311
+16Y3MD
+2036YD
+146
+
+4311231
+2016Y3D
+2036Y
+146
+
+431123
+2016YM5D
+2036YM5
+
+
+Error,No Location!
+Error,No Location!
+Error,No Location!
+Error,No Location!
+

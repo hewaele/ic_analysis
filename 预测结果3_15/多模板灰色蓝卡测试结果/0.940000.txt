@@ -1,0 +1,110 @@
+456789012345
+2016Y3M5D
+2036YM5D
+456789
+
+432112341
+2016Y3M5D
+2036YD
+62146
+
+4321123412
+2016Y3MD
+2036YM
+6146
+
+56781234671
+016Y3M5D
+2036YM5D
+5670
+
+12467801234
+2016YD
+2036Y
+01235
+
+34567013456
+YD
+236YM5D
+345
+
+7801456802
+2016Y3M5D
+2036YMD
+9
+
+erro,no location!
+erro,no location!
+erro,no location!
+erro,no location!
+
+4323112318
+2016Y3D
+2036YM5
+
+
+432112314
+016YD
+2036Y
+62146
+
+671345678012
+016Y3D
+2036YMD
+78
+
+1357812367
+01Y35D
+2036YMD
+13
+
+erro,no location!
+erro,no location!
+erro,no location!
+erro,no location!
+
+43211231
+016Y3D
+2036YMD
+
+
+01237815
+2016Y35D
+2036Y
+901
+
+78013560
+016YMD
+2036YM
+7892
+
+234568145678
+2016Y3M5D
+2036YM5
+234
+
+erro,no location!
+erro,no location!
+erro,no location!
+erro,no location!
+
+432301123411
+16Y3MD
+2036YMD
+14
+
+4323112341
+2016Y3D
+2036Y
+16
+
+4323112341
+2016Y5D
+2036YM5
+
+
+erro,no location!
+erro,no location!
+erro,no location!
+erro,no location!
+

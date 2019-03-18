@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
-plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
+# plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
+# plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
 
 import analysis_fun
 
-dic_list = [str(i) for i in range(72, 96)]
+dic_list = [str(i) for i in range(60, 99)]
 
 #绘制曲线
 def draw(dic, save_img):
@@ -39,26 +39,15 @@ def draw(dic, save_img):
     plt.legend(loc='center right', fontsize='large')
     ax.set_xticks(range(len(dic_list)))
     ax.set_xticklabels(dic_list, rotation=45, fontsize='small')
-    ax.set_title(save_img)
+    ax.set_title(save_img+'_318_mid_fliter_v3')
     ax.set_xlabel('threshold')
     ax.grid(True)
     plt.savefig('../analysis_result/draw_data/'+save_img+'.png', dpi=300)
     plt.show()
 
-if __name__ == '__main__':
-    # 获取不同区域的字典
-    id_dic = analysis_fun.get_overall_result('id')
-    start_time_dic = analysis_fun.get_overall_result('start_time')
-    end_time_dic = analysis_fun.get_overall_result('end_time')
-    number_dic = analysis_fun.get_overall_result('number')
-
-    draw(id_dic, 'id')
-    draw(start_time_dic, 'start_time')
-    draw(end_time_dic, 'end_time')
-    draw(number_dic, 'number')
-
+def draw_accurate():
     # 准确率统一体
-    dic_list = [str(i) for i in range(72, 96)]
+    dic_list = [str(i) for i in range(75, 96)]
     # 绘制错误率 准确率 漏检率 多检率 3 4 5 6
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1)
@@ -86,8 +75,22 @@ if __name__ == '__main__':
     plt.legend(loc='center right', fontsize='large')
     ax.set_xticks(range(len(dic_list)))
     ax.set_xticklabels(dic_list, rotation=45, fontsize='small')
-    ax.set_title('ic acuurate')
+    ax.set_title('m gray ic acuurate2')
     ax.set_xlabel('threshold')
     ax.grid(True)
-    plt.savefig('../analysis_result/draw_data/' + 'ic_acuurate' + '.png', dpi=300)
+    plt.savefig('../analysis_result/draw_data/' + 'm_gray_ic_acuurate' + '.png', dpi=300)
     plt.show()
+
+if __name__ == '__main__':
+    # 获取不同区域的字典
+    id_dic = analysis_fun.get_overall_result('id')
+    # start_time_dic = analysis_fun.get_overall_result('start_time')
+    # end_time_dic = analysis_fun.get_overall_result('end_time')
+    # number_dic = analysis_fun.get_overall_result('number')
+
+    draw(id_dic, 'id')
+    # draw(start_time_dic, 'start_time')
+    # draw(end_time_dic, 'end_time')
+    # draw(number_dic, 'number')
+    # #绘制完整准确率数据图
+    # draw_accurate()

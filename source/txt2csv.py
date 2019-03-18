@@ -22,7 +22,7 @@ def txt2csv(source, target = None):
         if flag == 3:
             number_list.append(line.strip('\n'))
 
-        flag = (flag + 1) % 4
+        flag = (flag + 1) % 2
 
     # 将信息写入csv文件
     path = csv_path +'id/'+ source_file.name.split('/')[-1][:-4] + '.csv'
@@ -44,6 +44,6 @@ def to_csv(label, data, csv_path):
 
 
 if __name__ == "__main__":
-    for p, n, f in os.walk('../pre_result'):
+    for p, n, f in os.walk('../预测结果3_15/318_mid_fliter/'):
         for fi in f:
             txt2csv(os.path.join(p, fi))
